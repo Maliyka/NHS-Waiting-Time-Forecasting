@@ -1,0 +1,56 @@
+
+[1m[0;32m════════════════════════════════════════════════════════[0m
+[1m  NHS Waiting Time Forecasting — Full Pipeline[0m
+[1m  Started: Sun Mar 15 01:51:14 AM GMT 2026[0m
+[1m  Log: /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/logs/pipeline_20260315_015114.log[0m
+[1m[0;32m════════════════════════════════════════════════════════[0m
+
+[1m[01:51:14][0m WARNING: No venv found at /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/venv — using system Python
+[1m[01:51:14][0m STEP 1 — Setup Database Schema
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 1 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 2 — Ingest RTT CSV Files
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 2 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 3 — Ingest New Periods XLS Files
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 3 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 4 — Data Cleaning & Harmonisation
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 4 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 5 — Exploratory Data Analysis
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 5 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 6 — ARIMA / SARIMA Modelling
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 6 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 7 — Holt-Winters Modelling
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 7 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 8 — Prophet Modelling
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 8 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 9 — Model Evaluation
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 9 complete in 0s[0m
+
+[1m[01:51:14][0m STEP 10 — Generate Forecasts
+scripts/11_run_pipeline.sh: line 58: python: command not found
+[0;32m  ✓ Step 10 complete in 0s[0m
+
+
+[1m[0;32m════════════════════════════════════════════════════════[0m
+[1m  PIPELINE COMPLETE[0m
+[1m  Total time: 0m 0s[0m
+[1m  Log:        /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/logs/pipeline_20260315_015114.log[0m
+[1m  Charts:     /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/data/processed/eda_plots/[0m
+[1m  Forecasts:  /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/data/forecasts/[0m
+[1m[0;32m════════════════════════════════════════════════════════[0m

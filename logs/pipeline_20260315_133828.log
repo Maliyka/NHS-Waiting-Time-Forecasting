@@ -1,0 +1,185 @@
+
+[1m[0;32m════════════════════════════════════════════════════════[0m
+[1m  NHS Waiting Time Forecasting — Full Pipeline[0m
+[1m  Started: Sun Mar 15 01:38:28 PM GMT 2026[0m
+[1m  Log: /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/logs/pipeline_20260315_133828.log[0m
+[1m[0;32m════════════════════════════════════════════════════════[0m
+
+[1m[13:38:28][0m Virtual environment activated: Python 3.12.3 from /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/venv
+[1m[13:38:28][0m Using Python: python (Python 3.12.3)
+[1m[13:38:28][0m PYTHONPATH: /home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/scripts
+[1m[13:38:28][0m 
+[1m[13:38:28][0m STEP 1 — Setup Database Schema
+13:38:28  INFO      ============================================================
+13:38:28  INFO      Step 1 — Setup Database
+13:38:28  INFO      ============================================================
+13:38:29  INFO      Database engine created: nhs_user@localhost:5432/nhs_waiting_times (schema=nhs)
+13:38:29  INFO      Database engine connected
+13:38:29  INFO      Executing SQL schema files...
+13:38:29  INFO      Executing SQL file: 01_create_schema.sql
+13:38:29  INFO      SQL file executed successfully: 01_create_schema.sql
+13:38:29  INFO        ✓  sql/01_create_schema.sql
+13:38:29  INFO      Executing SQL file: 02_create_dimensions.sql
+13:38:29  INFO      SQL file executed successfully: 02_create_dimensions.sql
+13:38:29  INFO        ✓  sql/02_create_dimensions.sql
+13:38:29  INFO      Executing SQL file: 03_create_facts.sql
+13:38:29  INFO      SQL file executed successfully: 03_create_facts.sql
+13:38:29  INFO        ✓  sql/03_create_facts.sql
+13:38:29  INFO      Executing SQL file: 04_create_indexes.sql
+13:38:29  INFO      SQL file executed successfully: 04_create_indexes.sql
+13:38:29  INFO        ✓  sql/04_create_indexes.sql
+13:38:29  INFO      Executing SQL file: 05_create_views.sql
+13:38:29  INFO      SQL file executed successfully: 05_create_views.sql
+13:38:29  INFO        ✓  sql/05_create_views.sql
+13:38:29  INFO      Seeding dim_calendar (2019-01 to 2026-12)...
+13:38:29  INFO      upsert_dataframe: 96 rows processed into nhs.dim_calendar
+13:38:29  INFO        ✓  dim_calendar: 96 rows
+13:38:29  INFO      Seeding dim_region...
+13:38:29  INFO      upsert_dataframe: 20 rows processed into nhs.dim_region
+13:38:29  INFO        ✓  dim_region: 62 rows
+13:38:29  INFO      Seeding dim_treatment...
+13:38:29  INFO      upsert_dataframe: 20 rows processed into nhs.dim_treatment
+13:38:29  INFO        ✓  dim_treatment: 20 rows
+13:38:29  INFO      Seeding dim_rtt_part...
+13:38:29  INFO      upsert_dataframe: 5 rows processed into nhs.dim_rtt_part
+13:38:29  INFO        ✓  dim_rtt_part: 5 rows
+13:38:29  INFO      Seeding dim_model...
+13:38:29  INFO      upsert_dataframe: 5 rows processed into nhs.dim_model
+13:38:29  INFO        ✓  dim_model: 5 rows
+13:38:29  INFO      ============================================================
+13:38:29  INFO      Database setup complete.
+13:38:29  INFO        dim_calendar  : 96 rows
+13:38:29  INFO        dim_region    : 62 rows
+13:38:29  INFO        dim_treatment : 20 rows
+13:38:29  INFO        dim_rtt_part  : 5 rows
+13:38:29  INFO        dim_model     : 5 rows
+13:38:29  INFO      Next step: python scripts/02_ingest_rtt_csv.py
+13:38:29  INFO      ============================================================
+[0;32m  ✓ Step 1 complete in 1s[0m
+[1m[13:38:29][0m 
+[1m[13:38:29][0m STEP 2 — Ingest RTT CSV Files
+13:38:30  INFO      ============================================================
+13:38:30  INFO      Step 2 — Ingest RTT CSV files
+13:38:30  INFO      ============================================================
+13:38:30  INFO      Database engine created: nhs_user@localhost:5432/nhs_waiting_times (schema=nhs)
+13:38:30  INFO      Dim caches loaded: 96 calendar, 62 region, 20 treatment, 5 rtt_part
+13:38:30  INFO      Found 84 files in data/raw/rtt_csv
+13:38:30  INFO      Extracted Full-CSV-data-file-Apr19-ZIP-3436K-revised.zip → 1 CSV(s)
+13:38:31  INFO      Extracted Full-CSV-data-file-Apr20-revised-ZIP-2295K.zip → 1 CSV(s)
+13:38:31  INFO      Extracted Full-CSV-data-file-Apr21-revised-ZIP-3587K.zip → 1 CSV(s)
+13:38:33  INFO      Extracted Full-CSV-data-file-Apr22-revised-ZIP-4253.zip → 1 CSV(s)
+13:38:33  INFO      Extracted Full-CSV-data-file-Apr23-ZIP-3528K-36960.zip → 1 CSV(s)
+13:38:34  INFO      Extracted Full-CSV-data-file-Apr24-ZIP-4M-revised.zip → 1 CSV(s)
+13:38:35  INFO      Extracted Full-CSV-data-file-Apr25-ZIP-4M-revised.zip → 1 CSV(s)
+13:38:36  INFO      Extracted Full-CSV-data-file-Aug19-ZIP-3493K-revised.zip → 1 CSV(s)
+13:38:37  INFO      Extracted Full-CSV-data-file-Aug20-ZIP-2594K-09869.zip → 1 CSV(s)
+13:38:39  INFO      Extracted Full-CSV-data-file-Aug21-revised-ZIP-3682K.zip → 1 CSV(s)
+13:38:39  INFO      Extracted Full-CSV-data-file-Aug22-revised-ZIP-3488K.zip → 1 CSV(s)
+13:38:40  INFO      Extracted Full-CSV-data-file-Aug23-ZIP-3646K-revised.zip → 1 CSV(s)
+13:38:41  INFO      Extracted Full-CSV-data-file-Aug24-ZIP-4M-revised.zip → 1 CSV(s)
+13:38:41  INFO      Extracted Full-CSV-data-file-Aug25-ZIP-4M-revised-2.zip → 1 CSV(s)
+13:38:42  INFO      Extracted Full-CSV-data-file-Dec19-revised-ZIP-3109K.zip → 1 CSV(s)
+13:38:43  INFO      Extracted Full-CSV-data-file-Dec20-revised-ZIP-2860K.zip → 1 CSV(s)
+13:38:44  INFO      Extracted Full-CSV-data-file-Dec21-revised-ZIP-3744K.zip → 1 CSV(s)
+13:38:44  INFO      Extracted Full-CSV-data-file-Dec22-revised-ZIP-3631K.zip → 1 CSV(s)
+13:38:46  INFO      Extracted Full-CSV-data-file-Dec23-ZIP-3800K-revised.zip → 1 CSV(s)
+13:38:47  INFO      Extracted Full-CSV-data-file-Dec24-ZIP-4M-revised.zip → 1 CSV(s)
+13:38:48  INFO      Extracted Full-CSV-data-file-Dec25-ZIP-4M-6jPlxd.zip → 1 CSV(s)
+13:38:49  INFO      Extracted Full-CSV-data-file-Feb19-revised-ZIP-3485K.zip → 1 CSV(s)
+13:38:50  INFO      Extracted Full-CSV-data-file-Feb20-revised-ZIP-3171K.zip → 1 CSV(s)
+13:38:51  INFO      Extracted Full-CSV-data-file-Feb21-ZIP-2739K-25692.zip → 1 CSV(s)
+13:38:52  INFO      Extracted Full-CSV-data-file-Feb22-revised-ZIP-109268K.zip → 1 CSV(s)
+13:38:53  INFO      Extracted Full-CSV-data-file-Feb23-revised-ZIP-3784K.zip → 1 CSV(s)
+13:38:54  INFO      Extracted Full-CSV-data-file-Feb24-ZIP-3881K-revised.zip → 1 CSV(s)
+13:38:55  INFO      Extracted Full-CSV-data-file-Feb25-ZIP-4M-revised.zip → 1 CSV(s)
+13:38:57  INFO      Extracted Full-CSV-data-file-Jan19-revised-ZIP-3634K.zip → 1 CSV(s)
+13:38:57  INFO      Extracted Full-CSV-data-file-Jan20-revised-ZIP-3227K.zip → 1 CSV(s)
+13:38:57  INFO      Extracted Full-CSV-data-file-Jan21-ZIP-2714K-24158.zip → 1 CSV(s)
+13:38:59  INFO      Extracted Full-CSV-data-file-Jan22-revised-ZIP-4266K.zip → 1 CSV(s)
+13:39:00  INFO      Extracted Full-CSV-data-file-Jan23-revised-ZIP-3609K.zip → 1 CSV(s)
+13:39:03  INFO      Extracted Full-CSV-data-file-Jan24-ZIP-3943K-revised.zip → 1 CSV(s)
+13:39:03  INFO      Extracted Full-CSV-data-file-Jan25-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:05  INFO      Extracted Full-CSV-data-file-Jul19-ZIP-3550K-revised.zip → 1 CSV(s)
+13:39:06  INFO      Extracted Full-CSV-data-file-Jul20-ZIP-2546K.zip → 1 CSV(s)
+13:39:08  INFO      Extracted Full-CSV-data-file-Jul21-revised-ZIP-3710K.zip → 1 CSV(s)
+13:39:09  INFO      Extracted Full-CSV-data-file-Jul22-revised-ZIP-3642K.zip → 1 CSV(s)
+13:39:10  INFO      Extracted Full-CSV-data-file-Jul23-ZIP-3623K-revised.zip → 1 CSV(s)
+13:39:11  INFO      Extracted Full-CSV-data-file-Jul24-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:12  INFO      Extracted Full-CSV-data-file-Jul25-ZIP-4M-revised-2.zip → 1 CSV(s)
+13:39:14  INFO      Extracted Full-CSV-data-file-Jun19-ZIP-3502K.zip → 1 CSV(s)
+13:39:15  INFO      Extracted Full-CSV-data-file-Jun20-revised-ZIP-2649K.zip → 1 CSV(s)
+13:39:17  INFO      Extracted Full-CSV-data-file-Jun21-revised-ZIP-3739K.zip → 1 CSV(s)
+13:39:19  INFO      Extracted Full-CSV-data-file-Jun22-revised-ZIP-4253.zip → 1 CSV(s)
+13:39:20  INFO      Extracted Full-CSV-data-file-Jun23-ZIP-3659K-64970.zip → 1 CSV(s)
+13:39:21  INFO      Extracted Full-CSV-data-file-Jun24-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:23  INFO      Extracted Full-CSV-data-file-Jun25-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:25  INFO      Extracted Full-CSV-data-file-Mar19-revised-ZIP-3506K.zip → 1 CSV(s)
+13:39:25  INFO      Extracted Full-CSV-data-file-Mar20-ZIP-2995K-73640.zip → 1 CSV(s)
+13:39:26  INFO      Extracted Full-CSV-data-file-Mar21-ZIP-2888K-76325.zip → 1 CSV(s)
+13:39:28  INFO      Extracted Full-CSV-data-file-Mar22-revised-ZIP-111805K.zip → 1 CSV(s)
+13:39:30  INFO      Extracted Full-CSV-data-file-Mar23-revised-ZIP-3589K.zip → 1 CSV(s)
+13:39:31  INFO      Extracted Full-CSV-data-file-Mar24-ZIP-3832K-revised.zip → 1 CSV(s)
+13:39:31  INFO      Extracted Full-CSV-data-file-Mar25-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:33  INFO      Extracted Full-CSV-data-file-May19-ZIP-3497K-revised.zip → 1 CSV(s)
+13:39:34  INFO      Extracted Full-CSV-data-file-May20-revised-ZIP-2216K.zip → 1 CSV(s)
+13:39:35  INFO      Extracted Full-CSV-data-file-May21-revised-ZIP-3656K.zip → 1 CSV(s)
+13:39:37  INFO      Extracted Full-CSV-data-file-May22-revised-ZIP-4392K.zip → 1 CSV(s)
+13:39:38  INFO      Extracted Full-CSV-data-file-May23-ZIP-3627K-revised.zip → 1 CSV(s)
+13:39:40  INFO      Extracted Full-CSV-data-file-May24-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:41  INFO      Extracted Full-CSV-data-file-May25-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:41  INFO      Extracted Full-CSV-data-file-Nov19-revised-ZIP-3528K.zip → 1 CSV(s)
+13:39:43  INFO      Extracted Full-CSV-data-file-Nov20-ZIP-2758K-26885.zip → 1 CSV(s)
+13:39:44  INFO      Extracted Full-CSV-data-file-Nov21-revised-ZIP-3826K.zip → 1 CSV(s)
+13:39:46  INFO      Extracted Full-CSV-data-file-Nov22-revised-ZIP-3508K.zip → 1 CSV(s)
+13:39:47  INFO      Extracted Full-CSV-data-file-Nov23-ZIP-3952K-revised.zip → 1 CSV(s)
+13:39:48  INFO      Extracted Full-CSV-data-file-Nov24-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:49  INFO      Extracted Full-CSV-data-file-Nov25-ZIP-4M-1Xmjkk.zip → 1 CSV(s)
+13:39:50  INFO      Extracted Full-CSV-data-file-Oct19-revised-ZIP-3580K.zip → 1 CSV(s)
+13:39:52  INFO      Extracted Full-CSV-data-file-Oct20-revised-ZIP-2772K.zip → 1 CSV(s)
+13:39:53  INFO      Extracted Full-CSV-data-file-Oct21-revised-ZIP-3787K.zip → 1 CSV(s)
+13:39:54  INFO      Extracted Full-CSV-data-file-Oct22-revised-ZIP-3473K.zip → 1 CSV(s)
+13:39:55  INFO      Extracted Full-CSV-data-file-Oct23-ZIP-3928K-revised.zip → 1 CSV(s)
+13:39:56  INFO      Extracted Full-CSV-data-file-Oct24-ZIP-4M-revised.zip → 1 CSV(s)
+13:39:58  INFO      Extracted Full-CSV-data-file-Oct25-ZIP-4M-SrRW6y.zip → 1 CSV(s)
+13:39:59  INFO      Extracted Full-CSV-data-file-Sep19-ZIP-3532K-62303.zip → 1 CSV(s)
+13:40:00  INFO      Extracted Full-CSV-data-file-Sep20-ZIP-2738K-20720.zip → 1 CSV(s)
+13:40:02  INFO      Extracted Full-CSV-data-file-Sep21-revised-ZIP-3768K.zip → 1 CSV(s)
+13:40:03  INFO      Extracted Full-CSV-data-file-Sep22-revised-ZIP-3542K.zip → 1 CSV(s)
+13:40:04  INFO      Extracted Full-CSV-data-file-Sep23-ZIP-3654K-revised.zip → 1 CSV(s)
+13:40:05  INFO      Extracted Full-CSV-data-file-Sep24-ZIP-4M-revised.zip → 1 CSV(s)
+13:40:07  INFO      Extracted Full-CSV-data-file-Sep25-ZIP-4M-revised.zip → 1 CSV(s)
+RTT files:   0%|          | 0/84 [00:00<?, ?file/s]13:40:07  INFO      Processing RTT-APRIL-2019-full-extract-revised.csv → period 2019-04-01
+13:40:12  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:16  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:20  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:23  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:26  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:29  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:32  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:35  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:39  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:42  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:45  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:49  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:54  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:40:57  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:02  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:05  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:08  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:12  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:15  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:19  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:22  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:26  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:30  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:34  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:38  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:41  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:47  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:51  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:55  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:41:58  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:42:02  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:42:06  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:42:10  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly
+13:42:13  INFO      upsert_dataframe: 5000 rows processed into nhs.fact_rtt_monthly

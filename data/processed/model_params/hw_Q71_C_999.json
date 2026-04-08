@@ -1,0 +1,1 @@
+{"trend": "add", "seasonal": "mul", "covid_smoothing": ["2020-04-01", "2020-05-01", "2020-06-01"], "n_bootstrap": 500}

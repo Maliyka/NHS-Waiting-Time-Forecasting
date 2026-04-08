@@ -1,0 +1,12 @@
+check,period_date,region,detail,severity
+missing_month,2026-01-01,ALL,No rows in fact_rtt_monthly for 2026-01,HIGH
+missing_month,2026-02-01,ALL,No rows in fact_rtt_monthly for 2026-02,HIGH
+missing_month,2026-03-01,ALL,No rows in fact_rtt_monthly for 2026-03,HIGH
+statistical_outlier,2025-07-01,QF7,"Waiting list size 134,905 is >3 SD from 12-month mean",MEDIUM
+statistical_outlier,2025-11-01,QMF,"Waiting list size 173,843 is >3 SD from 12-month mean",MEDIUM
+statistical_outlier,2021-03-01,QMJ,"Waiting list size 193,796 is >3 SD from 12-month mean",MEDIUM
+statistical_outlier,2022-07-01,QNQ,Waiting list size 825 is >3 SD from 12-month mean,MEDIUM
+statistical_outlier,2025-08-01,QUA,"Waiting list size 222,370 is >3 SD from 12-month mean",MEDIUM
+covid_disruption,2020-04-01,ALL,NHS suspended elective care — zero/very low referrals expected. Not imputed for ARIMA (uses covid_dummy=1). Smoothed for Holt-Winters.,INFO
+covid_disruption,2020-05-01,ALL,NHS suspended elective care — zero/very low referrals expected. Not imputed for ARIMA (uses covid_dummy=1). Smoothed for Holt-Winters.,INFO
+covid_disruption,2020-06-01,ALL,NHS suspended elective care — zero/very low referrals expected. Not imputed for ARIMA (uses covid_dummy=1). Smoothed for Holt-Winters.,INFO

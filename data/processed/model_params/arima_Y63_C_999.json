@@ -1,0 +1,1 @@
+{"arima_order": [2, 2, 3], "sarima_seasonal": [1, 1, 1, 12]}

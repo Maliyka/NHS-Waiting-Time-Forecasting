@@ -1,0 +1,19 @@
+region_code,region_name,treatment_code,treatment_name,model_name,model_type,fold_count,mean_mae,mean_rmse,mean_mape,mean_mase,mean_coverage_80,mean_coverage_95,mae_rank
+Q71,NHS England London,C_999,Total,ARIMA,Statistical,6,73278.2016,85303.3612,9.8429,,0.889,0.945,1
+Q71,NHS England London,C_999,Total,HoltWinters_Multiplicative,Statistical,6,409143.5110,412874.6366,52.9655,,0.306,0.333,2
+Q71,NHS England London,C_999,Total,SARIMA,Statistical,6,587548.3346,681694.8615,73.6432,,0.792,0.875,3
+Y58,NHS England South East,C_999,Total,ARIMA,Statistical,6,50461.9053,57412.1634,5.1631,,0.861,1.000,1
+Y58,NHS England South East,C_999,Total,HoltWinters_Additive,Statistical,6,156071.4206,158630.9999,15.9963,,0.861,0.875,2
+Y59,NHS England South West,C_999,Total,ARIMA,Statistical,6,57578.1875,66260.8473,5.4339,,0.945,0.986,1
+Y59,NHS England South West,C_999,Total,SARIMA,Statistical,6,92789.4074,107897.6343,8.7462,,0.931,0.958,2
+Y59,NHS England South West,C_999,Total,HoltWinters_Additive,Statistical,6,116493.7362,119717.6083,11.0382,,0.361,0.417,3
+Y60,NHS England North East and Yorkshire,C_999,Total,ARIMA,Statistical,6,49186.2302,56572.3418,6.3415,,0.972,0.986,1
+Y60,NHS England North East and Yorkshire,C_999,Total,SARIMA,Statistical,6,84529.2272,92320.1721,10.8537,,0.819,0.972,2
+Y60,NHS England North East and Yorkshire,C_999,Total,HoltWinters_Additive,Statistical,6,188172.4836,191041.5554,23.9394,,0.792,0.792,3
+Y61,NHS England Midlands,C_999,Total,ARIMA,Statistical,6,105328.2950,121453.0338,5.3484,,0.945,0.958,1
+Y61,NHS England Midlands,C_999,Total,HoltWinters_Additive,Statistical,6,211912.2093,222436.9617,10.9062,,0.445,0.528,2
+Y62,NHS England East of England,C_999,Total,ARIMA,Statistical,6,54144.9266,63635.7524,6.0560,,0.903,0.972,1
+Y62,NHS England East of England,C_999,Total,HoltWinters_Additive,Statistical,6,153416.1173,159063.3219,16.9425,,0.264,0.417,2
+Y63,NHS England North West,C_999,Total,ARIMA,Statistical,6,66040.7919,82565.2419,8.3982,,0.889,0.945,1
+Y63,NHS England North West,C_999,Total,HoltWinters_Additive,Statistical,6,151780.4147,160696.1149,18.0188,,0.847,0.861,2
+Y63,NHS England North West,C_999,Total,SARIMA,Statistical,6,12889255.2326,14649562.5229,1501.7404,,0.722,0.847,3

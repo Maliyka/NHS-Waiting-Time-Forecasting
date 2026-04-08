@@ -1,0 +1,128 @@
+database:
+  host: localhost
+  port: 5432
+  name: nhs_waiting_times
+  user: nhs_user
+  password: nhs_secure_pass
+  schema: nhs
+
+paths:
+  raw_rtt:         data/raw/rtt_csv/
+  raw_new_periods: data/raw/new_periods_xls/
+  processed:       data/processed/
+  eda_plots:       data/processed/eda_plots/
+  model_plots:     data/processed/model_plots/
+  model_params:    data/processed/model_params/
+  forecasts:       data/forecasts/
+  forecast_plots:  data/forecasts/plots/
+  logs:            logs/
+
+modelling:
+  forecast_horizon:    12
+  cv_folds:            6
+  cv_initial_months:   36
+  prediction_intervals: [80, 95]
+  seasonal_period:     12
+  arima_max_p:         3
+  arima_max_d:         2
+  arima_max_q:         3
+  n_bootstrap:         500
+  chunk_size:          5000
+
+covid:
+  start: "2020-04-01"
+  end:   "2022-04-01"
+  disruption_months:
+    - "2020-04-01"
+    - "2020-05-01"
+    - "2020-06-01"
+
+regions:
+  modern_codes:
+    Q71: "NHS England London"
+    Y60: "NHS England North East and Yorkshire"
+    Y61: "NHS England Midlands"
+    Y62: "NHS England East of England"
+    Y63: "NHS England North West"
+    Y58: "NHS England South East"
+    Y59: "NHS England South West"
+  consolidation:
+    Q72: Y60
+    Q74: Y60
+    Q75: Y63
+    Q83: Y63
+    Q84: Y63
+    Q76: Y61
+    Q77: Y61
+    Q78: Y61
+    Q79: Y62
+    Q85: Y59
+    Q86: Y59
+    Q87: Y58
+    Q88: Y58
+    Q71: Q71
+    Y60: Y60
+    Y61: Y61
+    Y62: Y62
+    Y63: Y63
+    Y58: Y58
+    Y59: Y59
+
+treatments:
+  primary_code: "C_999"
+  primary_part:  "Part_2"
+  specialty_codes:
+    C_100: "General Surgery"
+    C_101: "Urology"
+    C_110: "Trauma & Orthopaedics"
+    C_120: "Ear Nose & Throat"
+    C_130: "Ophthalmology"
+    C_140: "Oral Surgery"
+    C_150: "Neurosurgery"
+    C_160: "Plastic Surgery"
+    C_170: "Cardiothoracic Surgery"
+    C_300: "General Medicine"
+    C_301: "Gastroenterology"
+    C_320: "Cardiology"
+    C_330: "Dermatology"
+    C_340: "Thoracic Medicine"
+    C_400: "Neurology"
+    C_410: "Rheumatology"
+    C_430: "Geriatric Medicine"
+    C_502: "Gynaecology"
+    C_999: "Total"
+    X01:   "Other"
+
+nhs:
+  target_pct_within_18wks: 92.0
+  rtt_parts:
+    Part_1A: "Completed Pathways For Admitted Patients"
+    Part_1B: "Completed Pathways For Non-Admitted Patients"
+    Part_2:  "Incomplete Pathways"
+    Part_2A: "Incomplete Pathways Adjusted"
+    Part_3:  "New Periods Starting"
+
+month_names:
+  jan: 1
+  feb: 2
+  mar: 3
+  apr: 4
+  may: 5
+  jun: 6
+  jul: 7
+  aug: 8
+  sep: 9
+  oct: 10
+  nov: 11
+  dec: 12
+  january: 1
+  february: 2
+  march: 3
+  april: 4
+  june: 6
+  july: 7
+  august: 8
+  september: 9
+  october: 10
+  november: 11
+  december: 12

@@ -1,0 +1,6 @@
+#!/home/maliyka/Downloads/nhs_waiting_times_project/nhs_project/venv/bin/python3.12
+import sys
+from jupyter_core.troubleshoot import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

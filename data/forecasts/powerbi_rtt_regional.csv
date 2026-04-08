@@ -1,0 +1,589 @@
+period_date,year,month,month_name,year_month,quarter,is_pre_covid,is_covid_period,is_post_covid,covid_dummy,region_code,region_name,region_short,treatment_code,treatment_name,specialty_group,part_type,part_description,waiting_list_size,patients_within_18wks,patients_over_18wks,pct_within_18wks,waiting_over_52wks,total_patients,provider_count,commissioner_count
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,827637,708745,118892,85.6348,613,,46,197
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,638248,546232,92016,85.5830,315,,75,195
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,349636,297479,52157,85.0825,658,,56,183
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,644609,570687,73922,88.5323,288,,66,196
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,851355,747553,103802,87.8074,199,,82,197
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,293841,250927,42914,85.3955,48,,34,182
+2019-01-01,2019,1,January  ,2019-01,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,584300,511340,72960,87.5133,122,,63,191
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,766804,667189,99615,87.0091,620,,45,197
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,642348,549834,92514,85.5975,230,,75,196
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,355095,301099,53996,84.7939,582,,56,187
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,651254,575309,75945,88.3387,273,,66,194
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,854785,750470,104315,87.7963,150,,82,197
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,295677,252286,43391,85.3249,41,,34,183
+2019-02-01,2019,2,February ,2019-02,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,594700,521227,73473,87.6454,115,,63,192
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,774908,671092,103816,86.6028,330,,45,197
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,636387,545591,90796,85.7326,172,,75,192
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,416205,348901,67304,83.8291,389,,57,184
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,653506,576690,76816,88.2456,134,,66,197
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,863381,756796,106585,87.6549,31,,81,196
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,303249,258847,44402,85.3579,6,,35,181
+2019-03-01,2019,3,March    ,2019-03,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,601678,525217,76461,87.2920,99,,63,190
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,790866,683142,107724,86.3790,327,,45,193
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,642003,551129,90874,85.8452,133,,74,190
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,421446,351739,69707,83.4600,372,,57,180
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,663605,582984,80621,87.8511,105,,65,192
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,749470,654993,94477,87.3942,21,,72,193
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,436702,376348,60354,86.1796,17,,47,181
+2019-04-01,2019,4,April    ,2019-04,2,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,611363,532099,79264,87.0349,80,,65,189
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,802468,695593,106875,86.6817,353,,45,193
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,651693,562269,89424,86.2782,129,,74,191
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,428625,360334,68291,84.0674,362,,57,180
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,677063,597619,79444,88.2664,95,,65,190
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,764135,670618,93517,87.7617,32,,72,192
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,450542,387671,62871,86.0455,25,,46,185
+2019-05-01,2019,5,May      ,2019-05,2,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,627769,548390,79379,87.3554,49,,66,185
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,805545,690907,114638,85.7689,351,,45,193
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,652991,560233,92758,85.7949,110,,73,189
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,429108,359787,69321,83.8453,410,,57,181
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,678954,595376,83578,87.6902,96,,65,190
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,766229,668010,98219,87.1815,41,,72,191
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,451655,386789,64866,85.6382,68,,46,186
+2019-06-01,2019,6,June     ,2019-06,2,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,627336,545966,81370,87.0293,41,,66,186
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,804783,685111,119672,85.1299,298,,46,193
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,651031,554773,96258,85.2145,101,,71,191
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,434142,362979,71163,83.6084,426,,57,184
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,683128,596661,86467,87.3425,109,,65,190
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,765503,663767,101736,86.7099,100,,71,193
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,419296,354995,64301,84.6645,62,,45,185
+2019-07-01,2019,7,July     ,2019-07,3,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,632023,547244,84779,86.5861,23,,65,190
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,799621,674959,124662,84.4099,379,,46,193
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,659461,556204,103257,84.3422,120,,71,193
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,438333,362156,76177,82.6212,518,,57,183
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,686530,592916,93614,86.3642,112,,66,190
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,773543,665019,108524,85.9705,145,,71,192
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,425184,357264,67920,84.0257,68,,46,183
+2019-08-01,2019,8,August   ,2019-08,3,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,642788,551119,91669,85.7388,27,,67,189
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,801133,677704,123429,84.5932,420,,46,193
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,659346,555215,104131,84.2069,148,,71,193
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,443317,363980,79337,82.1038,509,,57,183
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,686441,591089,95352,86.1092,107,,67,191
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,776934,667520,109414,85.9172,170,,71,193
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,426129,354414,71715,83.1706,78,,46,186
+2019-09-01,2019,9,September,2019-09,3,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,642159,549672,92487,85.5975,42,,67,187
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,805496,679756,125740,84.3897,407,,47,193
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,664425,559895,104530,84.2676,170,,71,191
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,446138,365796,80342,81.9917,494,,57,181
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,690917,595652,95265,86.2118,88,,67,191
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,786121,675738,110383,85.9585,182,,71,193
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,428731,354303,74428,82.6399,105,,46,186
+2019-10-01,2019,10,October  ,2019-10,4,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,642207,547307,94900,85.2228,58,,66,191
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,805344,677809,127535,84.1639,437,,47,193
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,651889,548015,103874,84.0657,169,,70,192
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,442184,361430,80754,81.7375,475,,58,185
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,682848,587137,95711,85.9836,105,,68,192
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,784961,672302,112659,85.6478,172,,71,193
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,427610,351515,76095,82.2046,166,,47,186
+2019-11-01,2019,11,November ,2019-11,4,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,637388,540090,97298,84.7349,46,,65,191
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,808699,673016,135683,83.2221,449,,47,193
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,657696,548811,108885,83.4445,176,,71,193
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,440628,358945,81683,81.4621,469,,58,183
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,679599,580718,98881,85.4501,113,,67,192
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,783132,665946,117186,85.0362,134,,71,193
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,427421,347668,79753,81.3409,197,,47,190
+2019-12-01,2019,12,December ,2019-12,4,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,633814,530919,102895,83.7657,64,,65,190
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,815836,677708,138128,83.0691,428,,47,193
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,651348,542709,108639,83.3209,196,,71,191
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,436118,354683,81435,81.3273,526,,58,186
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,680239,581230,99009,85.4450,138,,67,190
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,784075,663505,120570,84.6226,86,,71,193
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,430336,349634,80702,81.2467,290,,47,188
+2020-01-01,2020,1,January  ,2020-01,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,632115,526862,105253,83.3491,66,,65,191
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,817306,676304,141002,82.7480,450,,48,193
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,650056,540668,109388,83.1725,186,,71,192
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,436735,353399,83336,80.9184,503,,58,182
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,681398,580371,101027,85.1736,141,,68,190
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,786546,660999,125547,84.0382,111,,71,193
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,431329,349497,81832,81.0279,277,,47,184
+2020-02-01,2020,2,February ,2020-02,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,633974,527675,106299,83.2329,56,,64,190
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Q71,NHS England London,London,C_999,Total,Total,Part_2,Incomplete Pathways,788118,616828,171290,78.2659,765,,48,193
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y58,NHS England South East,South East,C_999,Total,Total,Part_2,Incomplete Pathways,621481,495233,126248,79.6859,365,,71,191
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y59,NHS England South West,South West,C_999,Total,Total,Part_2,Incomplete Pathways,416962,324098,92864,77.7284,831,,56,183
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y60,NHS England North East and Yorkshire,North East,C_999,Total,Total,Part_2,Incomplete Pathways,637794,524400,113394,82.2209,340,,68,191
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y61,NHS England Midlands,Midlands,C_999,Total,Total,Part_2,Incomplete Pathways,744286,603193,141093,81.0432,274,,71,193
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y62,NHS England East of England,East of England,C_999,Total,Total,Part_2,Incomplete Pathways,425504,330042,95462,77.5650,447,,46,185
+2020-03-01,2020,3,March    ,2020-03,1,t,f,f,0,Y63,NHS England North West,North West,C_999,Total,Total,Part_2,Incomplete Pathways,618280,493790,124490,79.8651,228,,64,189
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,429750,300856,128894,70.0072,1724,,25,142
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,571615,399819,171796,69.9455,1427,,61,148
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,547267,394824,152443,72.1447,1254,,70,150
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,428456,317465,110991,74.0951,957,,48,143
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1062216,771686,290530,72.6487,1995,,116,147
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,474032,316901,157131,66.8522,2728,,43,138
+2020-04-01,2020,4,April    ,2020-04,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,454763,325559,129204,71.5887,1306,,50,149
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,416029,251113,164916,60.3595,3862,,25,147
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,532045,322974,209071,60.7043,3658,,61,149
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,535761,338290,197471,63.1420,3071,,71,149
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,411936,263594,148342,63.9891,2241,,48,141
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1043146,665609,377537,63.8078,5321,,115,150
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,478105,278696,199409,58.2918,5701,,42,141
+2020-05-01,2020,5,May      ,2020-05,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,450585,284868,165717,63.2218,3266,,50,147
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,411919,201505,210414,48.9186,6895,,25,150
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,527455,272934,254521,51.7455,7009,,61,149
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,542850,286853,255997,52.8420,5838,,71,150
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,407826,214356,193470,52.5607,4008,,48,146
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1053799,562394,491405,53.3682,10991,,111,149
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,480297,238579,241718,49.6732,9689,,44,141
+2020-06-01,2020,6,June     ,2020-06,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,454684,238181,216503,52.3839,6541,,50,151
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,419703,179393,240310,42.7428,10485,,25,149
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,556044,254859,301185,45.8343,11754,,61,150
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,596975,287074,309901,48.0881,10776,,73,154
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,428663,205845,222818,48.0202,6544,,48,145
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1088942,523119,565823,48.0392,18676,,111,149
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,500659,232825,267834,46.5037,14489,,45,144
+2020-07-01,2020,7,July     ,2020-07,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,474105,219499,254606,46.2976,11075,,50,149
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,426663,209886,216777,49.1925,13442,,26,149
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,578304,307304,271000,53.1388,15619,,62,150
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,621232,341049,280183,54.8988,14022,,73,151
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,458089,255149,202940,55.6986,8948,,48,141
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1137628,620242,517386,54.5206,26114,,111,148
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,520449,278368,242081,53.4861,18207,,45,144
+2020-08-01,2020,8,August   ,2020-08,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,496183,256503,239680,51.6952,15410,,50,149
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,432585,245286,187299,56.7024,16435,,26,149
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,594145,359785,234360,60.5551,19391,,62,150
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,640538,397449,243089,62.0492,17750,,73,151
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,481871,309281,172590,64.1834,11442,,48,145
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1186939,727508,459431,61.2928,34615,,111,147
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,524641,312497,212144,59.5640,21032,,46,143
+2020-09-01,2020,9,September,2020-09,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,513364,296080,217284,57.6745,19563,,50,151
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,432240,272241,159999,62.9838,18682,,26,150
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,602033,398311,203722,66.1610,21934,,60,151
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,649941,433590,216351,66.7122,20997,,73,151
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,496976,345412,151564,69.5028,14752,,49,147
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1222498,805419,417079,65.8831,42124,,113,149
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,538431,344241,194190,63.9341,24666,,46,146
+2020-10-01,2020,10,October  ,2020-10,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,525312,322692,202620,61.4286,24387,,50,151
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,428042,288619,139423,67.4277,18917,,27,150
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,604960,420187,184773,69.4570,24728,,62,150
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,649432,450453,198979,69.3611,24272,,73,151
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,499168,356858,142310,71.4906,18365,,50,146
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1231847,845649,386198,68.6489,49195,,112,150
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,534844,353521,181323,66.0980,27437,,45,143
+2020-11-01,2020,11,November ,2020-11,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,531218,336929,194289,63.4257,29798,,50,153
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,434911,296556,138355,68.1877,20887,,27,150
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,602377,423918,178459,70.3742,26864,,63,150
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,650231,451133,199098,69.3804,28588,,75,150
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,504854,357574,147280,70.8272,22327,,50,146
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1264648,855157,409491,67.6202,60440,,112,150
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,545942,357018,188924,65.3949,31070,,46,143
+2020-12-01,2020,12,December ,2020-12,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,536233,337295,198938,62.9008,34627,,50,150
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,438876,291215,147661,66.3547,28871,,28,149
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,605713,413633,192080,68.2886,37504,,64,150
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,655368,445845,209523,68.0297,38653,,76,151
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,512952,355519,157433,69.3084,31302,,50,147
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1295001,852460,442541,65.8270,83345,,113,151
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,553886,348630,205256,62.9426,39743,,46,144
+2021-01-01,2021,1,January  ,2021-01,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,549325,342336,206989,62.3194,45498,,50,153
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,453005,293275,159730,64.7399,37567,,28,150
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,627092,415374,211718,66.2381,46724,,63,150
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,666187,445096,221091,66.8125,49623,,76,151
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,518155,351640,166515,67.8639,39630,,50,145
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1336307,852003,484304,63.7580,108459,,111,151
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,564614,345578,219036,61.2061,50592,,46,144
+2021-02-01,2021,2,February ,2021-02,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,550768,338191,212577,61.4035,56393,,50,153
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,551304,346201,205103,62.7968,54473,,29,149
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,652315,433664,218651,66.4808,47958,,64,150
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,689931,463699,226232,67.2095,54577,,76,152
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,538563,370372,168191,68.7704,41659,,50,145
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1396408,881833,514575,63.1501,123695,,112,150
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,580793,352806,227987,60.7456,55496,,47,144
+2021-03-01,2021,3,March    ,2021-03,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,563011,352801,210210,62.6633,59466,,50,153
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,569381,354833,166867,62.3191,,,29,119
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,670757,446752,183389,66.6042,,,64,121
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,708500,478667,183462,67.5606,,,76,127
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,561677,391727,132626,69.7424,,,50,123
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1440972,908135,421625,63.0224,,,115,124
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,604619,369154,185174,61.0556,,,47,115
+2021-04-01,2021,4,April    ,2021-04,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,587580,374060,159715,63.6611,,,50,126
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,583761,385989,157390,66.1211,,,29,119
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,686667,476393,176607,69.3776,,,63,120
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,729919,515148,175722,70.5761,,,75,125
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,591164,427642,131215,72.3390,,,50,124
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1503981,985267,418846,65.5106,,,114,124
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,623300,400222,178581,64.2102,,,47,119
+2021-05-01,2021,5,May      ,2021-05,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,606630,398093,159809,65.6237,,,49,126
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,593544,405797,154085,68.3685,,,30,119
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,712016,507320,175334,71.2512,,,63,121
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,756225,543287,177879,71.8420,,,74,125
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,609200,446687,133751,73.3235,,,50,126
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1535518,1025844,416495,66.8077,,,113,124
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,645290,423244,180616,65.5897,,,50,117
+2021-06-01,2021,6,June     ,2021-06,2,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,622398,410366,167073,65.9331,,,50,123
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,603115,413855,160011,68.6196,,,30,118
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,724951,512610,184701,70.7096,,,63,121
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,780378,556902,188947,71.3631,,,75,125
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,628695,457057,143766,72.6993,,,50,127
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1581864,1046430,444213,66.1517,,,115,123
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,666905,436865,189619,65.5063,,,49,119
+2021-07-01,2021,7,July     ,2021-07,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,642698,417712,181313,64.9935,,,49,125
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,614020,422037,164587,68.7334,,,30,119
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,745423,524431,193679,70.3535,,,62,121
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,773866,551345,190459,71.2455,,,74,126
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,640071,458069,154176,71.5653,,,50,126
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1622015,1060772,467450,65.3984,,,115,125
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,684173,440297,201582,64.3546,,,50,120
+2021-08-01,2021,8,August   ,2021-08,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,655125,420030,192189,64.1145,,,50,124
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,630103,428249,175219,67.9649,,,29,118
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,758640,525943,205175,69.3271,,,62,121
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,787992,549869,204275,69.7810,,,74,125
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,652482,460638,163897,70.5978,,,51,126
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1656276,1066672,490475,64.4018,,,117,124
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,701484,440001,217168,62.7243,,,50,119
+2021-09-01,2021,9,September,2021-09,3,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,667458,420032,204056,62.9301,,,50,125
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,638345,429695,182707,67.3139,,,29,119
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,770242,526908,215555,68.4081,,,62,122
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,843942,574087,230741,68.0245,,,76,125
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,664608,466914,169716,70.2540,,,51,127
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1680932,1067557,509559,63.5098,,,116,125
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,718111,445962,224991,62.1021,,,50,117
+2021-10-01,2021,10,October  ,2021-10,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,681157,424099,214504,62.2616,,,49,121
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,638356,431826,182297,67.6466,,,28,119
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,777382,533871,216631,68.6755,,,61,122
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,843644,570165,234500,67.5836,,,76,126
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,667331,470975,170216,70.5759,,,53,121
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1687718,1069930,513291,63.3951,,,116,124
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,721986,442944,231634,61.3508,,,51,121
+2021-11-01,2021,11,November ,2021-11,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,685284,426131,218579,62.1831,,,49,123
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,648973,427000,197861,65.7963,,,29,119
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,789350,526610,234554,66.7144,,,62,122
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,852164,560989,252269,65.8311,,,76,124
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,669850,463422,181096,69.1830,,,53,121
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1711711,1059395,545691,61.8910,,,116,124
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,729222,436699,244369,59.8856,,,51,120
+2021-12-01,2021,12,December ,2021-12,4,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,690382,414660,234559,60.0624,,,49,123
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,657035,431044,203327,65.6044,,,30,119
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,784492,515898,241629,65.7620,,,63,122
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,868217,558369,268178,64.3121,,,76,124
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,677086,458257,192588,67.6808,,,53,122
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1712229,1039528,566525,60.7120,,,116,124
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,746637,433563,262622,58.0688,,,51,119
+2022-01-01,2022,1,January  ,2022-01,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,707543,404201,257789,57.1274,,,50,123
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,669392,438258,210089,65.4711,,,30,120
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,796485,517341,252545,64.9530,,,63,121
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,885153,568153,276819,64.1870,,,76,124
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,685764,463170,196782,67.5407,,,53,120
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1721747,1045396,574070,60.7172,,,115,123
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,761328,438097,275815,57.5438,,,51,120
+2022-02-01,2022,2,February ,2022-02,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,716639,405733,265601,56.6161,,,50,124
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,677529,443827,213725,65.5067,,,30,121
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,809556,522098,260637,64.4919,,,63,119
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,906805,580800,285058,64.0491,,,76,126
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,700311,474221,200250,67.7158,,,53,121
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1764783,1075912,584080,60.9657,,,115,123
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,782325,449505,285706,57.4576,,,51,120
+2022-03-01,2022,3,March    ,2022-03,1,f,t,f,1,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,749940,423883,279226,56.5223,,,50,123
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,692873,448782,222892,64.7712,,,30,123
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,828715,527872,272843,63.6977,,,63,122
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,936464,593618,299513,63.3893,,,76,126
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,666259,451582,189318,67.7787,,,52,120
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1814557,1098000,607832,60.5106,,,116,123
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,807728,461732,295608,57.1643,,,50,121
+2022-04-01,2022,4,April    ,2022-04,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,762738,430443,283709,56.4339,,,50,121
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,700911,467018,212585,66.6301,,,30,124
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,812310,533098,251609,65.6274,,,61,123
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,966579,625878,294177,64.7519,,,76,125
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,725248,503923,193943,69.4829,,,53,118
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1864267,1164036,589037,62.4393,,,117,124
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,833300,487703,293255,58.5267,,,50,122
+2022-05-01,2022,5,May      ,2022-05,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,761317,448224,263976,58.8748,,,50,122
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,704709,461933,220157,65.5495,,,30,124
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,828459,530630,268000,64.0502,,,62,123
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,983989,626729,305734,63.6927,,,77,126
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,733823,500973,203900,68.2689,,,54,118
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1901278,1160740,622284,61.0505,,,116,125
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,849540,486190,307811,57.2298,,,50,121
+2022-06-01,2022,6,June     ,2022-06,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,784110,453743,277060,57.8673,,,50,123
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,711784,456121,232177,64.0814,,,30,124
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,839669,526510,280873,62.7045,,,64,122
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1008031,630329,323287,62.5307,,,78,125
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,747765,503000,213990,67.2671,,,55,118
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1874030,1121696,632585,59.8548,,,117,125
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,880735,495515,324906,56.2615,,,51,121
+2022-07-01,2022,7,July     ,2022-07,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,804762,455412,289991,56.5897,,,51,122
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,718776,459348,235778,63.9070,,,30,123
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,907956,570749,304264,62.8609,,,64,124
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1029988,640879,332977,62.2220,,,78,125
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,763404,511703,220671,67.0291,,,55,120
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1909014,1137662,650666,59.5942,,,116,125
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,879523,492090,324742,55.9496,,,51,120
+2022-08-01,2022,8,August   ,2022-08,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,824127,460923,300250,55.9286,,,51,125
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,715770,451600,240576,63.0929,,,30,124
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,928625,568987,324425,61.2720,,,64,124
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1040941,636565,347661,61.1528,,,78,126
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,766381,504184,230115,65.7876,,,55,121
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1922514,1116845,681918,58.0929,,,116,125
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,891102,486431,339855,54.5876,,,50,120
+2022-09-01,2022,9,September,2022-09,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,837074,454052,314612,54.2428,,,51,125
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,720441,460730,235997,63.9511,,,30,124
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,940580,578069,326707,61.4588,,,63,124
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1053233,647469,349011,61.4744,,,79,127
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,774881,510744,232040,65.9126,,,55,122
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1943379,1130063,688578,58.1494,,,118,125
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,902148,495141,339261,54.8847,,,51,121
+2022-10-01,2022,10,October  ,2022-10,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,647509,375796,225978,58.0372,,,50,124
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,717935,463072,231552,64.5005,,,30,124
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,935508,572009,328521,61.1442,,,64,125
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1047554,639767,352311,61.0725,,,78,125
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,773754,510535,231659,65.9816,,,55,123
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1942534,1127174,692003,58.0260,,,118,125
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,892385,489037,335204,54.8011,,,51,121
+2022-11-01,2022,11,November ,2022-11,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,646256,374825,226177,57.9995,,,50,124
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,719973,451386,245314,62.6949,,,30,125
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,935852,555683,344778,59.3772,,,64,126
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1048614,617064,375973,58.8457,,,79,126
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,775404,496640,247215,64.0492,,,55,122
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2028553,1128435,773631,55.6276,,,118,125
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,885815,469616,347790,53.0151,,,51,122
+2022-12-01,2022,12,December ,2022-12,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,640372,361658,234995,56.4762,,,50,124
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,723276,461285,239491,63.7772,,,30,124
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,936749,560565,342466,59.8415,,,63,126
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1052628,630544,370706,59.9019,,,79,126
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,775545,504574,242022,65.0606,,,55,122
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2018671,1138063,764560,56.3768,,,119,125
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,881645,475866,343260,53.9748,,,51,123
+2023-01-01,2023,1,January  ,2023-01,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,851624,451244,334084,52.9863,,,51,127
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,726725,463871,240410,63.8303,,,30,125
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,941294,564185,342989,59.9372,,,63,125
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1052160,632382,371688,60.1032,,,79,126
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,778339,506748,244347,65.1063,,,55,122
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2018324,1141326,765779,56.5482,,,121,125
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,885145,479281,346113,54.1472,,,52,121
+2023-02-01,2023,2,February ,2023-02,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,842948,449986,331270,53.3824,,,50,126
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,737416,469660,245142,63.6900,,,30,126
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,950302,568908,345661,59.8660,,,63,124
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1071772,644524,379527,60.1363,,,80,127
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,793525,518268,248598,65.3121,,,55,123
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2044561,1161658,775129,56.8170,,,121,125
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,905017,492688,353165,54.4396,,,52,120
+2023-03-01,2023,3,March    ,2023-03,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,856856,458761,336528,53.5400,,,50,123
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,746056,473722,248425,63.4968,,,30,126
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,961265,570441,352547,59.3427,,,64,124
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1088957,649064,389832,59.6042,,,80,127
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,799572,518257,252844,64.8168,,,56,118
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2059281,1164651,786206,56.5562,,,121,125
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,925257,501516,362864,54.2029,,,51,115
+2023-04-01,2023,4,April    ,2023-04,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,863656,461775,338614,53.4675,,,51,120
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,752447,485547,241775,64.5291,,,30,121
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,973492,589382,343081,60.5431,,,64,123
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1094526,663635,378442,60.6322,,,80,127
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,805115,530997,244555,65.9529,,,56,117
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2078360,1204047,764061,57.9326,,,122,123
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,927162,508659,355340,54.8619,,,52,116
+2023-05-01,2023,5,May      ,2023-05,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,873255,480423,327137,55.0152,,,51,122
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,759379,485393,248139,63.9197,,,30,120
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,983762,594522,347656,60.4335,,,63,124
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1101539,663847,384941,60.2654,,,80,126
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,813238,534098,249960,65.6755,,,56,117
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2111401,1215100,788269,57.5495,,,122,124
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,948033,520455,365455,54.8984,,,52,117
+2023-06-01,2023,6,June     ,2023-06,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,886717,485817,335184,54.7883,,,51,116
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,766286,483339,256011,63.0755,,,29,120
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,996794,598390,356192,60.0315,,,63,124
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1113661,665279,394851,59.7380,,,79,125
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,825832,541308,255981,65.5470,,,56,117
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2142758,1219947,814544,56.9335,,,124,124
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,961300,520069,378561,54.1006,,,52,117
+2023-07-01,2023,7,July     ,2023-07,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,897113,485532,343101,54.1216,,,52,116
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,770618,480326,262946,62.3300,,,29,120
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1012077,600809,368109,59.3640,,,64,124
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1125352,665300,405016,59.1193,,,78,124
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,831449,544265,259106,65.4598,,,56,118
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2168549,1220362,837740,56.2755,,,124,121
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,970518,519152,386971,53.4923,,,53,116
+2023-08-01,2023,8,August   ,2023-08,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,896846,480343,347614,53.5591,,,51,118
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,776710,478502,270352,61.6063,,,29,120
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1028104,602768,381927,58.6291,,,65,120
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1101442,648862,398869,58.9102,,,78,122
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,828221,540160,260728,65.2193,,,57,119
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2161724,1209215,843176,55.9375,,,124,121
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,973653,517492,391650,53.1495,,,54,115
+2023-09-01,2023,9,September,2023-09,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,903672,480857,356471,53.2115,,,52,118
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,799226,492895,277634,61.6715,,,30,119
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1019582,604537,372354,59.2926,,,64,120
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1123408,667514,403888,59.4187,,,79,122
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,823944,542021,255963,65.7837,,,58,118
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2130766,1200563,825366,56.3442,,,122,122
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,941401,508121,371088,53.9750,,,54,114
+2023-10-01,2023,10,October  ,2023-10,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,895998,482115,350723,53.8076,,,52,119
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,806119,492008,284562,61.0342,,,31,119
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1011106,600893,369361,59.4293,,,64,120
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1110271,661945,398772,59.6201,,,79,123
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,815142,531022,258955,65.1447,,,58,118
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2099255,1190346,811504,56.7033,,,122,124
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,920313,498369,364120,54.1521,,,54,114
+2023-11-01,2023,11,November ,2023-11,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,881446,476497,347332,54.0586,,,52,118
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,817756,480623,307158,58.7734,,,31,120
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1020441,587122,394439,57.5361,,,64,120
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1103798,641081,415380,58.0796,,,78,121
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,808764,513836,270986,63.5335,,,58,117
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2087497,1153204,842209,55.2434,,,123,122
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,915178,478235,381281,52.2560,,,54,115
+2023-12-01,2023,12,December ,2023-12,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,883839,465244,366245,52.6390,,,52,118
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,815779,477953,307069,58.5885,,,31,122
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1021393,590517,394234,57.8149,,,64,120
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1097040,646265,406219,58.9099,,,79,122
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,803367,514594,265779,64.0547,,,58,117
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2081416,1157888,835006,55.6298,,,123,122
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,908041,479446,375130,52.8000,,,54,117
+2024-01-01,2024,1,January  ,2024-01,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,878672,470093,362044,53.5004,,,52,117
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,817598,479273,307341,58.6196,,,29,121
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1026092,597726,392966,58.2527,,,63,119
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1097439,657917,397831,59.9502,,,76,123
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,795913,510315,263758,64.1169,,,58,117
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2064080,1156427,823798,56.0263,,,121,123
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,898671,481288,367766,53.5555,,,52,116
+2024-02-01,2024,2,February ,2024-02,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,866650,470353,352728,54.2725,,,50,119
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,829721,483491,313438,58.2715,,,30,120
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1032224,595918,400602,57.7315,,,63,119
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1083643,643179,399042,59.3534,,,74,123
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,800719,509408,269805,63.6188,,,58,119
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2068833,1152023,830954,55.6847,,,121,122
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,896265,480713,364805,53.6351,,,51,115
+2024-03-01,2024,3,March    ,2024-03,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,857332,463288,350652,54.0383,,,49,119
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,830866,495374,304404,59.6214,,,30,120
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1029822,605661,390515,58.8122,,,62,120
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1092922,662164,390863,60.5866,,,74,123
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,800770,515482,263540,64.3733,,,59,118
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2083027,1180660,816948,56.6800,,,120,121
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,903020,492385,360073,54.5265,,,50,114
+2024-04-01,2024,4,April    ,2024-04,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,860028,472939,344717,54.9911,,,49,118
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,829000,503214,294251,60.7013,,,30,121
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1030383,616738,380039,59.8552,,,62,119
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1092725,663657,387941,60.7341,,,74,124
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,813758,530339,260079,65.1716,,,59,118
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2095370,1205734,803804,57.5428,,,121,122
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,909335,504920,352826,55.5263,,,51,113
+2024-05-01,2024,5,May      ,2024-05,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,861168,483047,335342,56.0921,,,49,120
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,837620,505256,299986,60.3204,,,30,121
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1042134,622759,384867,59.7581,,,61,119
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1094420,664824,389518,60.7467,,,74,124
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,815453,527334,262585,64.6676,,,59,118
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2088533,1199833,805670,57.4486,,,122,124
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,915111,505082,360728,55.1935,,,51,116
+2024-06-01,2024,6,June     ,2024-06,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,858688,478100,340202,55.6780,,,50,117
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,834161,501846,301879,60.1618,,,30,120
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1044535,621219,389230,59.4733,,,63,119
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1095578,664135,393595,60.6196,,,74,124
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,815287,526271,263269,64.5504,,,60,118
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2086828,1201890,806430,57.5941,,,123,122
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,912759,503800,360611,55.1953,,,51,114
+2024-07-01,2024,7,July     ,2024-07,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,864583,480825,345864,55.6135,,,50,117
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,841738,501838,310221,59.6193,,,30,120
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1049586,616793,399229,58.7654,,,65,118
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1097824,659871,401587,60.1072,,,74,125
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,821897,524079,271734,63.7646,,,60,118
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2084988,1189902,818558,57.0700,,,123,123
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,911453,496366,368731,54.4588,,,51,117
+2024-08-01,2024,8,August   ,2024-08,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,865550,479678,349180,55.4189,,,50,119
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,831394,497029,307819,59.7826,,,30,120
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1041896,615594,396172,59.0840,,,65,118
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1090064,657233,401488,60.2931,,,75,124
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,810275,516497,270283,63.7434,,,60,119
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2067561,1183542,816315,57.2434,,,123,123
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,904073,497654,366477,55.0458,,,52,116
+2024-09-01,2024,9,September,2024-09,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,857768,478605,346719,55.7966,,,52,117
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,827080,499582,304476,60.4031,,,30,120
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1039852,618374,392766,59.4675,,,65,118
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1088177,660377,398095,60.6865,,,75,124
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,806639,519253,266381,64.3724,,,60,118
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2053074,1182833,805149,57.6128,,,122,123
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,896344,495242,362520,55.2513,,,52,115
+2024-10-01,2024,10,October  ,2024-10,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,861618,484793,345402,56.2654,,,55,119
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,815002,495166,299263,60.7564,,,30,121
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1031896,615123,389332,59.6109,,,65,118
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1085574,664727,392941,61.2328,,,76,123
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,797636,515132,263059,64.5823,,,61,118
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2032855,1174082,796310,57.7553,,,123,124
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,894688,494828,363778,55.3073,,,53,116
+2024-11-01,2024,11,November ,2024-11,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,853489,481549,341522,56.4212,,,54,116
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,812672,493279,301757,60.6984,,,30,120
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1033884,617387,391936,59.7153,,,66,119
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1083632,657536,400278,60.6789,,,77,124
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,794163,511784,265173,64.4432,,,61,118
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,2023166,1163911,802218,57.5292,,,121,123
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,895640,491318,371057,54.8566,,,53,117
+2024-12-01,2024,12,December ,2024-12,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,851144,479075,344569,56.2860,,,54,117
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,808148,492584,298017,60.9522,,,29,121
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1034631,614852,396502,59.4272,,,67,119
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1075007,653146,396257,60.7574,,,77,123
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,789920,508822,263956,64.4144,,,60,118
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1993974,1142055,796027,57.2753,,,123,122
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,908789,497015,377569,54.6898,,,52,115
+2025-01-01,2025,1,January  ,2025-01,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,847943,478968,341279,56.4859,,,54,118
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,805357,491812,296108,61.0676,,,29,121
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1036928,613688,400802,59.1833,,,67,118
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1074581,657053,392707,61.1450,,,78,123
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,790023,512668,261844,64.8928,,,61,118
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1975047,1140087,781661,57.7246,,,123,121
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,910325,502290,373498,55.1770,,,52,116
+2025-02-01,2025,2,February ,2025-02,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,839651,478034,333739,56.9325,,,53,117
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,798989,491303,291253,61.4906,,,28,123
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1046635,623186,402681,59.5419,,,67,119
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1083064,667704,391951,61.6495,,,79,124
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,790204,517571,258666,65.4984,,,61,118
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1972617,1157805,767323,58.6939,,,123,120
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,920202,509221,376675,55.3380,,,53,116
+2025-03-01,2025,3,March    ,2025-03,1,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,837759,483733,327826,57.7413,,,54,118
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,801133,490185,293887,61.1865,,,29,123
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1040148,618246,398535,59.4383,,,69,119
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1077560,661340,389635,61.3738,,,79,127
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,784051,513649,255921,65.5122,,,61,118
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1962588,1158235,755429,59.0157,,,124,122
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,918510,506939,375903,55.1915,,,53,119
+2025-04-01,2025,4,April    ,2025-04,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,837463,481707,329282,57.5198,,,54,118
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,804323,498482,286357,61.9754,,,29,124
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1027998,624956,378828,60.7935,,,69,118
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1076103,670137,378026,62.2744,,,80,123
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,778036,518143,244726,66.5963,,,60,118
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1959492,1180017,729409,60.2206,,,124,120
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,908888,517666,354740,56.9560,,,52,116
+2025-05-01,2025,5,May      ,2025-05,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,833437,489647,317553,58.7503,,,54,118
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,803106,504931,279375,62.8723,,,29,122
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1031031,636063,371196,61.6919,,,69,120
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1081016,674218,378429,62.3689,,,80,124
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,782767,524121,243830,66.9575,,,60,118
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1963358,1198006,717438,61.0182,,,126,119
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,903595,518489,349386,57.3807,,,52,115
+2025-06-01,2025,6,June     ,2025-06,2,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,835402,494263,315815,59.1647,,,55,118
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,796622,501444,276475,62.9463,,,29,120
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1037593,637389,376237,61.4296,,,71,121
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1092889,679017,386291,62.1305,,,80,125
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,783662,525199,244332,67.0186,,,59,118
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1870454,1128337,695388,60.3242,,,126,120
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,908539,518328,353562,57.0507,,,54,117
+2025-07-01,2025,7,July     ,2025-07,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,844527,496971,322547,58.8461,,,55,119
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,800757,504732,278372,63.0319,,,29,121
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1036480,636580,375582,61.4175,,,71,121
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1097870,676323,393896,61.6032,,,80,123
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,781409,521601,245823,66.7513,,,59,117
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1870234,1123409,701681,60.0678,,,127,120
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,913373,520243,354756,56.9584,,,54,117
+2025-08-01,2025,8,August   ,2025-08,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,845421,492678,327844,58.2761,,,56,119
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,796785,508074,272900,63.7655,,,29,119
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1035435,643797,367848,62.1765,,,71,121
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1099501,685682,387790,62.3630,,,81,123
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,780778,530150,237222,67.9002,,,59,118
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1865473,1133995,688933,60.7886,,,126,121
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,907479,520650,349239,57.3732,,,53,116
+2025-09-01,2025,9,September,2025-09,3,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,844123,500320,321027,59.2710,,,57,118
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,792286,502004,275896,63.3615,,,30,119
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1031146,643054,365412,62.3630,,,72,120
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1098331,685508,388241,62.4136,,,81,123
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,784096,532277,238922,67.8842,,,59,118
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1870742,1133545,696304,60.5933,,,126,123
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,915565,524742,353479,57.3135,,,54,117
+2025-10-01,2025,10,October  ,2025-10,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,844910,502736,320583,59.5017,,,56,118
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,728647,456573,259385,62.6604,,,29,121
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1017594,635794,361208,62.4801,,,75,121
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1073017,670109,381830,62.4509,,,86,123
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,777346,527005,238558,67.7954,,,60,118
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1859476,1122063,699652,60.3430,,,131,122
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,899291,519802,345275,57.8013,,,60,118
+2025-11-01,2025,11,November ,2025-11,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,835939,498049,318297,59.5796,,,57,119
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Q71,NHS England London,,C_999,Total,Total,Part_2,Incomplete Pathways,799699,504126,282788,63.0395,,,30,119
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y58,NHS England South East,,C_999,Total,Total,Part_2,Incomplete Pathways,1007235,628518,360479,62.4003,,,77,120
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y59,NHS England South West,,C_999,Total,Total,Part_2,Incomplete Pathways,1064212,659417,386647,61.9629,,,87,123
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y60,NHS England North East and Yorkshire,,C_999,Total,Total,Part_2,Incomplete Pathways,772300,522215,240151,67.6182,,,59,118
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y61,NHS England Midlands,,C_999,Total,Total,Part_2,Incomplete Pathways,1858133,1111913,711370,59.8403,,,131,123
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y62,NHS England East of England,,C_999,Total,Total,Part_2,Incomplete Pathways,894659,515196,347654,57.5857,,,63,118
+2025-12-01,2025,12,December ,2025-12,4,f,f,t,0,Y63,NHS England North West,,C_999,Total,Total,Part_2,Incomplete Pathways,835642,499209,319993,59.7396,,,57,118
